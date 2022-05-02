@@ -3,7 +3,7 @@
 }
 
 .sublist {
-    font-family: "Shadows Into Light" , sans-serif;
+    font-family: "Shadows Into Light", sans-serif;
 }
 
 .citation {
@@ -15,6 +15,12 @@ div.youtube {
     right: 1%;
     top: 75%;
     font-family: "Indie Flower", sans-serif;
+    font-weight: bold;
+    text-shadow: 4px 4px 3px #77f;
+    color: black;
+    animation-name: font;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
 
 }
 
@@ -24,4 +30,35 @@ body {
     background-color: #c0c0c0;
     padding: 0 20px 20px 20px;
     border: 5px solid black;
+    animation-name: border;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes border {
+    0% {
+        border-color: black;
+    }
+
+    33% {
+        border-color: purple;
+    }
+
+    66% {
+        border-color: blue;
+    }
+}
+
+@keyframes font {
+    0% {
+        color: black;
+    }
+
+    33% {
+        color: purple;
+    }
+
+    66% {
+        color: blue;
+    }
 }
