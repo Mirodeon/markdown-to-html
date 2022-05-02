@@ -7,14 +7,16 @@
     <meta name="description"
         content="I have to convert the MarkDown from an exercise into HTML inside a file called index.html and all my work have must be in a public repository named markdown-to-html on Github">
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="ressources/personal-intro.css" />
+    <link rel="stylesheet" href="ressources/style.css" />
 </head>
 
 <body>
-    <h1>Mehdi Habaru</h1>
-    <p><i>Pourquoi le poulet a-t-il traversé la route?</i></p>
-    <img src=ressources/photo_profil.jpg alt="photo de profil"/>
-    <h2>"Moi, en une phrase.🙃"</h2>
+    <header align="center">
+    <h1 class="Title">Mehdi Habaru</h1>
+    <p class="citation"><i>Pourquoi le poulet a-t-il traversé la route?</i></p>
+    <a href="https://github.com/Mirodeon" target="_blank" title="Profil Github"><img src=ressources/photo_profil.jpg alt="photo de profil" width="200"></a>
+    </header>
+    <h2 class="Title">"Moi, en une phrase.🙃"</h2>
     <table border="1">
         <tr>
             <th>Anniversaire</th>
@@ -30,51 +32,54 @@
             </td>
         </tr>
     </table>
-    <h2>Hobbys</h2>
+    <h2 class="Title">Hobbys</h2>
     <ul>
         <li>Dormir</li>
-        <ul>
+        <ul class="sublist">
             <li>Dans un lit</li>
             <li>Dans un divan</li>
             <li>Devant un film</li>
         </ul>
         <li>Lire</li>
-        <ul>
+        <ul class="sublist">
             <li>Des livres: fantasy, science-fiction, aléatoire</li>
             <li>Des mangas, des BD's, des Webtoons</li>
             <li>Des articles, de la documentation, wikipedia</li>
             <li>L'arrière de la boite de Kellogs</li>
         </ul>
         <li>Écrire</li>
-        <ul>
+        <ul class="sublist">
             <li>Au gré des inspiriations</li>
         </ul>
         <li>Jeux vidéo</li>
-        <ul>
+        <ul class="sublist">
             <li>MMORPG</li>
             <li>FPS</li>
             <li>Jeux solo</li>
         </ul>
         <li>Natation</li>
-        <ul>
+        <ul class="sublist">
             <li>Dans de l'eau, c'est mieux.</li>
         </ul>
         <li>Musique</li>
-        <ul>
+        <ul class="sublist">
             <li>Clairement de tout avec une préférence pour le Rock.</li>
         </ul>
     </ul>
-    <h2>Tu peux toujours compter sur moi...</h2>
+    <h2 class="Title">Tu peux toujours compter sur moi...</h2>
     <p>Pour perdre mon temps à réfléchir à un truc bizarre et m'y casser la tête.</p>
-    <h2>Anecdote drôle</h2>
+    <h2 class="Title">Anecdote drôle</h2>
     <p>Ceci est une anecdote drôle.</p>
-    <h3>TL;DR</h3>
+    <h3 class="Title">TL;DR</h3>
     <p>En bref, il s'agit d'une anecdote drôle.</p>
-    <p align="center">
-        <a href="https://github.com/henrihals/markdown-challenge/blob/main/README.md"><<|</a>
-         Mehdi Habaru
-        <a href="https://github.com/LydiaHaway/markdown-challenge">|>></a>
-    </p>
+    <div align="center">
+        <a href="https://github.com/henrihals/markdown-challenge/blob/main/README.md">|<<|</a>
+                Mehdi Habaru
+        <a href="https://github.com/LydiaHaway/markdown-challenge">|>>|</a>
+    </div>
+    <div class="youtube" align="right">
+        <p>❤️Chansonnette❤️</p>
+        <iframe width="216" height="120" src="https://www.youtube.com/embed/Az6oPiRZSlM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </body>
 
 </html>
