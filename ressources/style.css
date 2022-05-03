@@ -2,26 +2,36 @@
     font-family: 'Abril Fatface', cursive;
 }
 
-.sublist {
+li + ul {
     font-family: 'Shadows Into Light', cursive;
 }
 
 .citation {
     font-family: 'Square Peg', cursive;
+    font-weight: bold;
 }
 
 div.youtube {
     position: fixed;
     right: 1%;
-    top: 75%;
-    font-family: 'Indie Flower', cursive;
+    top: 50%;
+    font-family: 'Square Peg', cursive;
     font-weight: bold;
     text-shadow: 4px 4px 3px #77f;
     color: black;
     animation-name: font;
     animation-duration: 9s;
     animation-iteration-count: infinite;
+    font-size: xx-large;
 
+}
+
+iframe {
+    border: 10px solid black;
+    border-radius: 30px;
+    animation-name: border;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
 }
 
 body {
@@ -29,10 +39,12 @@ body {
     margin: 0 auto;
     background-color: #c0c0c0;
     padding: 0 20px 20px 20px;
-    border: 5px solid black;
+    border: 10px solid black;
+    border-radius: 125px;
     animation-name: border;
     animation-duration: 9s;
     animation-iteration-count: infinite;
+    font-family: 'Indie Flower', cursive;
 }
 
 @keyframes border {
